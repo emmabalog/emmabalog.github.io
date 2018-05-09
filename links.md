@@ -4,6 +4,8 @@ title: Links
 permalink: /links/
 ---
 
+i like these websites and apps :)
+
 1. [Google][link1]
 2. [Youtube][link2]
 3. [Instagram][link3]
