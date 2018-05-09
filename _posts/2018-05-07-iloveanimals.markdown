@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to Jekyll"
+title: "I like Animals"
 date: 2018-05-07 14:25:49 -0700
 catagories: jekyll update
 author: Emmakate Balog
