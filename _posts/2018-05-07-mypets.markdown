@@ -1,5 +1,5 @@
 ---
-title: "Second Jekyll Post"
+title: "I like Animals"
 date: 2018-05-07 14:31:49 -0700
 catagories: jekyll update
 author: Emmakate Balog
