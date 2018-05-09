@@ -2,6 +2,7 @@
 title: "Second Jekyll Post"
 date: 2018-05-07 14:31:49 -0700
 catagories: jekyll update
+author: Emmakate Balog
 ---
 
 i have two chickens named lily and lulu and a dog named kutya
