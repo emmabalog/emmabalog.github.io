@@ -18,10 +18,14 @@ email: emmabalog@warriorlife.net
 description: >- # this means to ignore newlines until "baseurl:"
  ok is actually spelled okAY.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: dont have twitter
+url: "https://emmabalog.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: dont have twitter
 github_username:  emmabalog
-timezone: America/San_Jose
+disqus:
+  shortname: emmakates-site
+
+
+timezone: America/Los_Angeles
 
 # Build settings
 markdown: kramdown
