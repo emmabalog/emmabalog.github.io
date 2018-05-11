@@ -11,13 +11,13 @@ this is mark down ;)
 *this is italics*
 **this is bold**
 
-# this is a <h1> tag
-## this is an <h2> tag
-### this is an <h3> tag
-#### this is an <h4> tag
-##### this is an <h5> tag
-###### this is an <h6> tag
-
+# this is <h1>
+## this is <h2>
+### this is <h3>
+#### this is <h4>
+##### this is <h5>
+###### this is <h6>
+  
 unordered lists:
 * Item 1
 * Item 2
@@ -31,9 +31,4 @@ unordered lists:
      1. this is a list in a list
      1. this is a 2nd list in a list
      
-here's a table
-First Header | Second Header
------------- | -------------
-heyo like mayo | cat like hat
-dogs are cute | most chickens are small
 
