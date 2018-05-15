@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- saved from url=(0082)file:///Volumes/129Mac14/Users/mac8/Documents/GitHub/4b-chickenclickers/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Web App</title>
+<!--Stylesheet-->
+<link rel="stylesheet" type="text/css" href="./Web App_files/webapp.css">
+<!--JavaScript-->
+<script type="text/javascript" src="./Web App_files/webapp.js"></script>
+<!--jQuery-->
+<script src="./Web App_files/jquery.min.js">$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});</script>
+</head>
+ 
+<body>
+<!--Add your HTML here-->
+<div id="wrapper">
+	<div id="leftColumn">
+		<h2 id="shopName" onclick="random_name();">Click here to name your brownie shop!</h2>
+		<h4> Made By: Emma Balog, Alicia Shi, and Neiko Lopez</h4>
+		<img src="./Web App_files/chicken.png" onclick="chicken_clicker();">
+		<br>
+		<button onclick="save">Save Progress</button>
+		<button onclick="clear">Clear</button>
+		<button onclick="loaded">Load</button>
+		<input type="button" class="button number" value="go to earth" onclick="changeCSS(&#39;webapp.css&#39;,0)">
+	<input type="button" class="button operator" value="go to mars" onclick="changeCSS(&#39;alien.css&#39;,0)">
+	</div>
+	<div id="rightColumn">
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Eggs: <input id="eggs" type="text" value="0" readonly=""></p>
+		<br>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chicks: <input id="chicks" type="text" value="0"></p>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 Eggs: <button onclick="buy(&#39;chicks&#39;);">Buy</button>
+			<br>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cartons: <input id="cartons" type="text" value="0"></p>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100 Eggs: <button onclick="buy(&#39;cartons&#39;);">Buy</button>
+			<br>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Trucks: <input id="trucks" type="text" value="0"></p>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 500 Eggs: <button onclick="buy(&#39;trucks&#39;);">Buy</button>
+			<br>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Farms: <input id="farms" type="text" value="0"></p>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1,000 Eggs:<button onclick="buy(&#39;farms&#39;);">Buy</button>
+			<br>
+		<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Eggtopia: <input id="eggtopia" type="text" value="0"></p>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100,000 Eggs:<button onclick="buy(&#39;eggtopia&#39;);">Buy</button>
+			<br>
+		<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chicken Universe <input id="universee" type="text" value="0"></p>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100,000,000 Eggs:<button onclick="buy(&#39;universee&#39;);">Buy</button>
+			<embed src="mii.mp3" autostart="true" loop="true" hidden="true">
+			<br>
+			<br>
+	</div>
+</div>
+
+
+
+
+</body></html>

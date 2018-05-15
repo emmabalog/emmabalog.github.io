@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+body {
+    background-image: url("images/barn.jpg");
+	background-size: cover;
+	font-family:'Gloria Hallelujah', cursive;
+}
+
+
+/* <input type="button" class="button number" value="go to earth" onclick="changeCSS('webapp.css.css',0)">
+	<input type="button" class="button operator" value="go to mars" onclick="changeCSS('alien.css',0)"> /* 
+
+
+function changeCSS(cssFile, cssLinkIndex) {
+
+    var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+
+    var newlink = document.createElement("link");
+    newlink.setAttribute("rel", "stylesheet");
+    newlink.setAttribute("type", "text/css");
+    newlink.setAttribute("href", cssFile);
+
+    document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+}
+
+
+/*<h2 id="shopName" onclick="random_name();">Click here to name your brownie shop!</h2>*/
+
+
+/*-------------------------------------------------
+
+	BASIC STRUCTURE
+
+-------------------------------------------------*/
+
+#wrapper {
+	width: 960px;
+	padding: 5px;
+	margin:20px auto;
+}
+
+#leftColumn	 {
+	background-color: white;
+	height: 520px;
+	float: left;
+	border-radius: 15px;
+}
+#rightColumn {
+	background-color: white;
+	float: right;
+	width: 400px;
+	border-radius: 15px;
+}

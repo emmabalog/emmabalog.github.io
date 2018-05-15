@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>8.3</title>
+<script type="text/javascript">
+	function fib(x) {
+		switch(x) {
+			case 0:
+				return 0;
+				break;
+			case 1:
+				return 1;
+				break;
+			default:
+			 	return fib(x-1) + fib(x-2);
+				
+		    }
+   	    }
+</script>
+</head>
+
+<body>
+<script type="text/javascript">
+	for( n = 0; n < 20; n++ ) {
+		value = fib(n);
+		document.write(value + ", ");
+	}
+	alert("The function called itself" + count + "times!");
+</script>
+</body>
+</html>

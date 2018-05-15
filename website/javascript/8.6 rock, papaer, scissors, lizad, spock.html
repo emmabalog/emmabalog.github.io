@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>rock, paper, scissors, lizad, spock</title>
+</head>
+
+<body>
+ <script type="text/javascript">
+ //Rock, Paper, Scissors, Lizard, Spock
+// uses associative arrays, functions, .toLowerCase(), .length, 
+// do-while, for, prompt, alert,console.log
+var choices = ["rock","paper","scissors","lizard","spock"]; // you could comment out the last two for the standard game.
+var userWins = 0;
+var computerWins = 0;
+var results = {"scissorspaper" : "cuts", //Scissors cuts paper
+"paperrock" : "covers", //Paper covers rock
+"rocklizard" : "crushes", //Rock crushes lizard
+"lizardspock" : "poisons", //Lizard poisons Spock
+"spockscissors" : "smashes", //Spock smashes scissors
+"scissorslizard" : "decapitates",//Scissors decapitates lizard
+"lizardpaper" : "eats",//Lizard eats paper
+"paperspock" : "disproves", //Paper disproves Spock
+"spockrock" : "vaporizes", //Spock vaporizes rock
+"rockscissors" : "crushes" //Rock crushes scissors
+};
+// compare makes a key of the two choices and determines the winner
+var compare = function(user,computer){
+if (user === computer){
+return "The result is a tie!";
+}
+if (results[user+""+computer] !== undefined){ // user beats computer
+userWins++;
+return user+" "+results[user+""+computer]+" "+computer;
+} else { //computer beats user
+computerWins++;
+return computer+" "+results[computer+"_"+user]+" "+user;
+}
+}
+//loop until the user enters something invalid
+do {
+var bored = true;
+var userChoice = prompt("Do you choose "+choices+"?").toLowerCase();
+for (var i = 0; i < choices.length; i++){
+if (userChoice === choices[i]){
+bored = false;
+var computerChoice = choices[Math.floor(Math.random()*choices.length)];
+alert("you chose: " + userChoice + "\ncomputer chose: " + computerChoice + "\n" + compare(userChoice,computerChoice));
+}
+}
+} while (!bored);
+console.log("You won "+userWins+" and the computer won "+computerWins);
+</script>
+</body>
+</html>

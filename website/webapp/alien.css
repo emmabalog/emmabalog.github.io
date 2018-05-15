@@ -1,0 +1,234 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+body {
+    background-image: url("images/better.gif");
+	background-size: cover;
+	font-family:'Gloria Hallelujah', cursive;
+}
+
+#footer {
+	background-color: #59160D;
+	height: 50px;
+	border-radius: 15px;
+	clear: both;
+	float: left;
+	width: 390px;
+}
+
+#footer p {
+	text-align:right;
+}
+
+#earth {
+	width: 140px;
+	font-size:20px;
+	background-color:rgba(71,200,221,1.00);
+	border-radius: 10px;
+	border-color:rgba(98,181,76,1.00);
+	color: white;
+}
+
+#mars {
+	width: 140px;
+	font-size:20px;
+	background-color: rgba(177,24,27,1.00);
+	border-radius: 10px;
+	border-color: black;
+	color: white;
+}
+
+#clear {
+	width: 140px;
+	font-size:20px;
+	background-color: rgba(15,204,128,1.00);
+	border-radius: 10px;
+	border-color: rgba(124,55,237,1.00);
+	color: white;
+}
+
+#click {
+	background-image: url("images/ALIEN.png");
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+	background-color: rgba(89,23,13,1.00);
+	border-color:rgba(89,23,13,1.00)
+}
+
+#wow {
+	background-image: url("images/porg.png");
+	background-size: cover;
+	height: 120px;
+	width: 70px;
+}
+
+#cartt {
+	background-image: url("images/alienegg.jpg");
+	background-size: cover;
+	height: 100px;
+	width: 100px;
+}
+
+#tr {
+	background-image: url("images/ufo.jpg");
+	background-size: cover;
+	height: 70px;
+	width: 70px;
+}
+
+#f {
+	background-image: url("images/afarm.jpg");
+	background-size: cover;
+	height: 70px;
+	width: 110px;
+}
+
+#topia {
+	background-image: url("images/city.jpg");
+	background-size: cover;
+	height: 70px;
+	width: 70px;
+	background-color:rgba(255,255,255,1.00)
+}
+
+
+
+/*-------------------------------------------------
+
+	BASIC STRUCTURE
+
+-------------------------------------------------*/
+#title {
+	font-size: 40px;
+	text-align: center;
+}
+
+#leftColumn img {
+	width: 100%;
+}
+
+#wrapper {
+	width: 960px;
+	padding: 5px;
+	margin:20px auto;
+}
+
+#leftColumn	 {
+	background-color: #59160D;
+	height: 650px;
+	float: left;
+	border-radius: 15px;
+}
+
+#rightColumn {
+	background-color: #59160D;
+	float: right;
+	width: 400px;
+	height: 1200px;
+	border-radius: 15px;
+}
+
+#chicks {
+	width: 100px;
+	font-size:20px;
+	background-color: rgba(255,14,0,1.00);
+	border-radius: 10px;
+	border-color: black;
+	color: black;
+}
+
+#cartons {
+	width: 100px;
+	font-size:20px;
+	background-color: rgba(255,14,0,1.00);
+	border-radius: 10px;
+	border-color: black;
+	color: black;
+}
+
+#trucks {
+	width: 100px;
+	font-size:20px;
+	background-color: rgba(255,14,0,1.00);
+	border-radius: 10px;
+	border-color: black;
+	color: black;
+}
+
+#farms {
+	width: 100px;
+	font-size:20px;
+	background-color: rgba(255,14,0,1.00);
+	border-radius: 10px;
+	border-color: black;
+	color: black;
+}
+
+#eggtopia {
+	width: 100px;
+	font-size:20px;
+	background-color: rgba(255,14,0,1.00);
+	border-radius: 10px;
+	border-color: black;
+	color: black;
+}
+
+#universee {
+	width: 100px;
+	font-size:20px;
+	background-color: rgba(255,14,0,1.00);
+	border-radius: 10px;
+	border-color: black;
+	color: black;
+}
+
+#eggs {
+	width: 100px;
+	font-size:20px;
+	background-color: rgba(255,14,0,1.00);
+	border-radius: 10px;
+	border-color: black;
+	color: black;
+}
+
+#rightColumn {
+	font-size:20px;
+	color: black;
+}
+
+
+/* responsive widths*/
+
+@media screen and (max-width: 980px) {
+	#wrapper {
+		width: 94%;
+	}
+	#rightColumn {
+		width: 65%;
+	}
+	#leftColumn {
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#leftColumn, #rightColumn {
+		width: 50%;
+		float: none;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#wrapper {
+		height: auto;
+	}
+	#title {
+		font-size: 24px;
+	}
+	#leftColumn, rightColumn {
+		float: none;
+	}
+}

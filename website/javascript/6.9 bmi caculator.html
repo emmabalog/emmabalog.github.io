@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BMI caculator</title>
+</head>
+
+<body>
+<script type="text/javascript">
+	var h = Number(prompt("how tall is the thing your measuring in inches?"));
+	var w = Number(prompt("how heavy is the thing your weighing?" ));
+	var result = 703* (w/(h*h));
+	var f = Math.floor(h/12);
+	var i = Math.floor(h-f*12);
+	document.write("Height:" + f + "'" + i + "\"" + "<br>Weight=" + w + "<br>BMI= " + result);
+		
+</script>
+</body>
+</html>

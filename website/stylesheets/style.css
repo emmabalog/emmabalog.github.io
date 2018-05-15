@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	
+	/*    My Color Palette
+	color 1: #CBFFF7
+	color 2: #ADCDE8
+	color 3: #C4BEFF
+	*/
+	
+	
+	
+	/*----------------------------------
+	
+					BASIC STRUCTURE    
+	                                     									  
+	---------------------------------*/
+	
+	#wrapper {
+			width: 960px;
+			padding: 5px;
+			margin: 20px auto;
+	}
+	#header {
+			height: 100px;
+	}
+	#sidebar {
+			float: left;
+			width: 300px;
+	}
+	#content {
+			float: right;
+			width: 600px
+	}
+	#footer {
+			clear: both;
+	}
+	
+	
+	
+	/*----------------------------------	
+	
+					COLORS AND FONTS
+	
+	----------------------------------*/
+	
+	body {
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color:black;
+	background-color:gray;
+	background-image: url("../images/sunset-04.jpg")
+}
+	#footer p {
+		text-align: right;
+	}	
+	
+#header, #sidebar, #content, #footer {
+		background-color: rgba( 255, 255, 255, 0.3);
+		margin-bottom: 4px;
+		border: ridge;
+		border-radius: 8px;
+		border-color: gray;
+		padding-left: 4px;
+		padding-right: 4px;
+}
+	
+	
+	/*----------------------------------	
+	
+					RESPONSIVE WIDTH
+	
+	----------------------------------*/
+	
+	@media screen and (max-width: 980px) {
+		#wrapper{
+			width: 94%;
+		}
+		#content {
+			width: 65%;
+		}
+		#sidebar {
+			width: 30%
+		}
+	}
+	
+	@media screen and (max-width: 700px) {
+		#content, #sidebar {
+			width: auto;
+			float: none;
+		
+	}
+			#header {
+				height: auto;
+			}
+	
+	@media screen and (max-width: 480px) {
+		#header {
+			height: aito;
+		}
+		#sidebar {
+			float: none;
+		}
+	}
+	
+	/* Phones*/
+	@media only screen
+	and (min-device-width: 320px)
+	and (max-device-width: 568px) {
+		body {
+			font-size: 40px;
+		}
+		#header {
+			height: auto;
+		}
+		#content {
+			width: suto;
+		}
+		#sidebar {
+			width: suto;
+			clear: both;
+		}
+		#header, #sidebar, #Fcontent, #footer {
+			
+			border-radius: 16px;
+			border-width: 8px;
+		}
+	}
+	

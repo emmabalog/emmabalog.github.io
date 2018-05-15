@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>infinate loop</title>
+</head>
+
+<body>
+<button onClick="setInterval(myCounter, 1000)">Start counter!</button>
+
+<p id="demo">Click the button and you will be board forever hehe.</p>
+
+<script>
+var c = 0;
+function myCounter() {
+    document.getElementById("demo").innerHTML = ++c;
+}
+</script> 
+
+
+</body>
+</html>

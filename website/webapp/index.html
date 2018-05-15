@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Chicken Clicker</title>
+<!--Stylesheet-->
+<link rel="stylesheet" type="text/css" href="webapp.css">
+<!--JavaScript-->
+<script type="text/javascript" src="webapp.js"></script>
+<!--jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="icon" href="images/chicky.jpg" type="image/jpg" sizes="16x16">
+
+</head>
+ 
+<body>
+<!--Add your HTML here-->
+<div id="wrapper">
+	<div id="title">
+	</div>
+		<div id="leftColumn">
+		<h1>Chicken Clicker</h1>
+		<h4> Made By: Emma Balog, Alicia Shi, and Neiko Lopez</h4>
+		
+	
+		<button id="click" onclick="chicken_clicker();"></button>
+	
+		<br>
+		<button id="clear" onclick="clear_game()">Clear</button>
+		<input id="earth" type="button" class="button number" value="go to earth" onclick="changeCSS('webapp.css',0)">
+	<input id="mars" type="button" class="button number" value="go to mars" onclick="changeCSS('alien.css',0)">
+	</div>
+	
+	<div id="rightColumn">
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Eggs: <input id="eggs" type="text" value="0" readonly></p>
+		<br>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chicks: <input id="chicks" type="text" value="0"></p>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 Eggs: <button id="wow" onclick="buy('chicks');"></button>
+			<br>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cartons: <input id="cartons" type="text" value="0"></p>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100 Eggs: <button id="cartt" onclick="buy('cartons');"></button>
+			<br>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Trucks: <input id="trucks" type="text" value="0"></p>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 500 Eggs: <button id="tr" onclick="buy('trucks');"></button>
+			<br>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Farms: <input id="farms" type="text" value="0"></p>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1,000 Eggs:<button id="f" onclick="buy('farms');"></button>
+			<br>
+		<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Eggtopia: <input id="eggtopia" type="text" value="0"></p>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100,000 Eggs:<button id="topia" onclick="buy('eggtopia');"></button>
+			<br>
+		<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chicken Universe <input id="universee" type="text" value="0"></p>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100,000,000 Eggs:<button onclick="buy('universee');"><img src="images/portal.png"></button>
+		<br>
+
+			<br>
+
+			<br>
+	</div>
+	<div id="footer"><p><a href="mailto:neiko.lopez@warriorlife.net">&copy; Neiko Lopez, Emma Balog, and Alicia Shi. 2018</a></p></div>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>global varible</title>
+<script type="text/javascript">
+	function add_em_up( num1, num2 ) {
+	// sanitize input
+	num1 = Number(num1);
+	num2 = Number(num2);
+	//add
+	var sum = num1 +  num2;
+	//output
+	return sum;
+}
+</script>
+</head>
+
+<body>
+<script type="text/javascript">
+	alert("I will add 2 numbers together.");
+	//ask user for 2 numbers
+	var x = prompt("Enter your first number: ");
+	var y = prompt("Enter your second number: ");
+	//call the function
+	alert(add_em_up( x , y ));
+	
+</script>
+
+</body>
+</html>
